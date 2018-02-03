@@ -53,17 +53,17 @@ int main()
 	{
 		for (int x = 0; x < img.cols; x++)
 		{
-			Vec3b color = img.at<Vec3b>(Point(x - (x % 11), y - (y % 11)));
+			Vec3b color = img.at<Vec3b>(Point(x - (x % 8), y - (y % 8)));
 
-			if ((x % 11 >= 2 && x % 11 <= 5) && (y % 11 >= 1 && y % 11 <= 4))
+			if ((x % 8 >= 2 && x % 8 <= 5) && (y % 8 >= 1 && y % 8 <= 4))
 			{
 				newImage.at<Vec3b>(Point(x, y)) = Vec3b(0, 0, color[2]);
 			}
-			else if ((x % 11 >= 0 && x % 11 <= 3) && (y % 11 >= 4 && y % 11 <= 7))
+			else if ((x % 8 >= 0 && x % 8 <= 3) && (y % 8 >= 4 && y % 8 <= 7))
 			{
 				newImage.at<Vec3b>(Point(x, y)) = Vec3b(0, color[1], 0);
 			}
-			else if ((x % 11 >= 4 && x % 11 <= 7) && (y % 11 >= 4 && y % 11 <= 7))
+			else if ((x % 8 >= 4 && x % 8 <= 7) && (y % 8 >= 4 && y % 8 <= 7))
 			{
 				newImage.at<Vec3b>(Point(x, y)) = Vec3b(color[0], 0, 0);
 			}
