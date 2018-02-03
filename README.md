@@ -12,4 +12,4 @@ In the future if I want to expand on this I think it might be fun to try out dif
 ![Source](https://static1.squarespace.com/static/55dfc21be4b0c50064eef55d/58008647197aea95712a1dc9/5800869cbebafb3dd58d9dd7/1476430108756/File+Oct+13-2.jpeg)
 
 ### Digital-ized
-![Digital-ized](https://image.ibb.co/cnmvwb/test_dp.jpg)
+![Digital-ized](http://image.ibb.co/kFCZim/test_dp.jpg)
